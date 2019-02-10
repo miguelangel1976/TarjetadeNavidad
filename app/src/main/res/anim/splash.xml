@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:fillAfter="true">
+
+    <!-- Se pone fillAfter para indicar que se quede como se ha quedado al final de las animaciones,
+       y no regrese a su estado inicial.
+    -->
+
+    <!-- El texto entra por el lado derecho de la Pantalla
+    y se centra en pantalla.
+    El centro es x=0 e y=0
+    -->
+
+    <translate
+        android:duration="3000"
+        android:fromXDelta="700"
+        android:fromYDelta="0"
+        android:toXDelta="0"
+        android:toYDelta="0" />
+
+</set>

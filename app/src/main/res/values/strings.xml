@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tarjeta de Navidad</string>
+    <string name="texto_feliz">[Feliz]</string>
+    <string name="texto_navidad">[Navidad]</string>
+    <string name="texto_anyo_nuevo">{Feliz Año Nuevo}</string>
+
+    <string name="textosplash">Cargando...</string>
+</resources>

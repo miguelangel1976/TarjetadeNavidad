@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Animación que hace un Escalado al mismo tiempo que va rotando
+        El tiempo total de la animación es de 3 segundos, debido
+        a que ambas animaciones de Escalado y Rotación se realiza simultáneamente.
+    -->
+
+    <scale
+
+        android:duration = "3000"
+        android:pivotX="50%"
+        android:pivotY="50%"
+
+        android:fromXScale="0"
+        android:fromYScale="0"
+
+        android:toXScale="1"
+        android:toYScale="1"
+
+
+        />
+
+
+    <!--
+   Se realiza un Giro de 360 grados, con el pivote situado en el Centro: pivotX y pivotY al 50%.
+   y con una duracion de la animación de 3 segundos: duration = 3000 mseg
+    -->
+
+
+    <rotate
+        android:duration = "3000"
+        android:fromDegrees ="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="360"
+        />
+
+<!-- Una vez realizado la rotación y el escalado,
+se produce una intermitencia de forma infinita
+
+-->
+
+    <!--
+        Retardo para ejecutar una animación tras otra se utiliza startOffset
+        La anterior animación tiene una duracción de 3 segundos.
+
+     -->
+
+    <alpha
+
+        android:startOffset="3200"
+
+        />
+
+    <!-- Intermitencia BLINK
+
+
+    -->
+
+    <alpha
+
+        android:duration="600"
+        android:fromAlpha = "0.0"
+
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:toAlpha="1.0"
+
+        />
+
+
+
+</set>

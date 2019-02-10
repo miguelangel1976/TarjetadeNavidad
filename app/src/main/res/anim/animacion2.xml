@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Realizar el Escalado
+
+    -->
+
+    <scale
+        android:pivotX="50%"
+        android:pivotY="100%"
+
+        android:fromXScale="1"
+        android:fromYScale="0"
+
+        android:toXScale="1"
+        android:toYScale="1"
+
+        android:duration="1000"
+        />
+
+
+    <!-- Una vez realizado el escalado,
+    se produce una intermitencia de forma infinita
+
+    -->
+    <alpha
+
+        android:startOffset="3200"
+
+        />
+
+
+    <alpha
+
+        android:duration="600"
+        android:fromAlpha = "0.0"
+
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:toAlpha="1.0"
+
+        />
+
+
+
+</set>
