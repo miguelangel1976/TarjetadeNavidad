@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WizardSettings">
+    <option name="children">
+      <map>
+        <entry key="imageWizard">
+          <value>
+            <PersistentState>
+              <option name="children">
+                <map>
+                  <entry key="imageAssetPanel">
+                    <value>
+                      <PersistentState>
+                        <option name="children">
+                          <map>
+                            <entry key="launcher">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="foregroundImage" value="J:\10 Curso 2ºDAM TELEFÓNICA 2018-2019\Segundo Trimestre\01 Programación Multimedia y Dispositivos Móviles\05 Actividades de los Temas\01 Tema 01\mi_icono.png" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </PersistentState>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PersistentState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

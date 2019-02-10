@@ -59,8 +59,7 @@ public class MainActivity extends AppCompatActivity {
         cancion.start();  //Comenzar a reproducir la música.
     }
 
-    //Si la Aplicación realiza un: Stop, Pausa, o finaliza, se detiene
-    //la reproducción de la Música.
+//Si la Aplicación realiza un: Stop, Pausa, o finaliza, se detiene
 
     protected void onDestroy() {
         super.onDestroy();
